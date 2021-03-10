@@ -2,19 +2,19 @@ html{
     background-color: #000000;
 }
 
-.container{
+.containers{
     width: 100%;
     /*background-color: #00b309;*/
 }
 
-.row{
+.rows{
     display: flex;
     /*background-color: blue;*/
     margin: 10px ;
     width: 100%;
 }
 
-.col-50{
+.col-50s{
     width: 50%;
 }
 
@@ -26,38 +26,39 @@ html{
     background-color: rgb(230, 226, 1);
 } */
 
-.row .col-50 figure{
+.rows .col-50s figure{
     margin: 0px;
     padding: 0px;
     display: flex;
     justify-content: center;
 }
 
-.row .col-50 figure img{
+.rows .col-50s figure img{
     width: 80%;
 }
 
-.row .col-50:nth-child(1) div{
+.rows .col-50s:nth-child(1) div{
     width: 80%;
     margin: 120px auto;
     /*background-color: aqua;*/
 }
 
-.row .col-50:nth-child(2) div{
+.rows .col-50s:nth-child(2) div{
     width: 80%;
-    margin: 500px auto;
+    margin: 300px auto;
     /*background-color: aqua;*/
 }
 
-.row .col-50 div a{
+.rows .col-50s div a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: rgb(255, 72, 0);
     font-size: 1.1rem;
 }
 
-.row .col-50 div p{
+.rows .col-50s div p{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
+    text-align: justify;
 }
